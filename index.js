@@ -41,4 +41,6 @@ app.post("/sendmail", (req, res) => {
   }
 });
 
-app.listen(process.env.PORT, () => console.log("server started"));
+// app.listen(process.env.PORT, () => console.log("server started"));
+
+module.exports = app;
